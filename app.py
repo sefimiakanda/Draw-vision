@@ -1,4 +1,4 @@
-"""Application Air Draw : boucle principale et réactions aux gestes."""
+"""Application Draw-vision : boucle principale et réactions aux gestes."""
 
 from __future__ import annotations
 

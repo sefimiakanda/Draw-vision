@@ -186,9 +186,3 @@ Tous les réglages se trouvent dans **`config.py`** :
 
 Projet réalisé par Fidèle Miakanda.
 
-
----
-
-## 📄 Licence
-
-Ce projet est distribué sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.

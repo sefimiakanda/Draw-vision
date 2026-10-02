@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+# Images générées par l'application
+output/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+
+# Éditeur / système
+.vscode/
+.idea/
+.DS_Store
+EOF

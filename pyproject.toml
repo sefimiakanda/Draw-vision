@@ -1,0 +1,22 @@
+[project]
+name = "draw-vision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "fidelemiakanda", email = "sefimiakanda@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mediapipe>=1.0.1",
+    "numpy>=2.5.3",
+    "opencv-contrib-python>=5.0.0.93",
+    "opencv-python>=5.0.0.93",
+]
+
+[project.scripts]
+draw-vision = "draw_vision:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
